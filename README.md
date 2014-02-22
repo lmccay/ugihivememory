@@ -20,8 +20,8 @@ To build the project:
 The following is expected as the contents of a jaas.conf file which is expected to be in the current directory:
 
     com.sun.security.jgss.login {
- com.sun.security.auth.module.Krb5LoginModule required debug=true client=true useTicketCache=false;
-};
+        com.sun.security.auth.module.Krb5LoginModule required debug=true client=true useTicketCache=false;
+    };
 
 Run the hdfs access test from a client machine with the following:
 
